@@ -18,10 +18,11 @@ Hi Brother Larry, good that you succeeded in downloading these files.  Now, the 
 <git add .>   and if after this, you type the command <git status> and you see all the files listed in green, know that you are okay and it is ready to receive the comments.
 
 - Next, you have to add a comment so type the following command:
-<git commit -m "Sending the original code to Roland">  and then press enter.  If you now type the command <git status>, it would tell you something like "Nothing to commit, the repository is clean..."  which means you are now ready to send the files.
+<git commit -m "Sending the original code to Roland">  and then press enter.  If you now type the command <git status>, it would tell you something like "Upto date with branch master, Nothing to commit, the repository is clean..."  which means you are now ready to send the files.
 
 - But before sending, type the following command:
 <git pull origin master> This should bring in any updates, from the remote repository, else it would not allow you to send. 
 
 - Now send the files with the following command...
+<git push origin master>   And it would ask for your user name and password, enter them and press enter and if you see it do a number of things and counts from 1% to 100%, then the files were sent.
 
